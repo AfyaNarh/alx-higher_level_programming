@@ -19,7 +19,7 @@ if __name__ == "__main__":
         argv[1], argv[2], argv[3])
 
     engine = create_engine(db_url)
-ession = sessionmaker(bind=engine)
+Session = sessionmaker(bind=engine)
 
     session =ession()
 
