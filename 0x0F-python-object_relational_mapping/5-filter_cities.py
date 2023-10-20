@@ -19,7 +19,7 @@ if __name__ == "__main__":
 
     with db_connect.cursor() as db_cursor:
         db_cursor.execute("""
-ELECT
+SELECT
                 cities.id, cities.name
             FROM
                 cities
